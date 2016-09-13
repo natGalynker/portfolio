@@ -4,7 +4,7 @@
  * Author URL: https://www.themesground.com/
  * License: Attribution-NonCommercial CC BY-NC
 
- * 
+ *
  * -------------------------------------------------------------------
  * This theme under "Attribution-NonCommercial CC BY-NC". You can't remove footer credit link.
  Text Domain: Nexus
@@ -78,6 +78,19 @@ a:hover {
   color: #4c4c4c;
 }
 
+.hero:hover {
+  color: #4c4c4c;
+}
+.test-poly {
+  font-weight: bold;
+  color: #000;
+}
+
+.test-bubble {
+  font-weight: bold;
+  color: #704EE3;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   color: #4c4c4c;
@@ -93,6 +106,113 @@ h3 {
 
 
 /* 2. LAYOUT */
+
+.grid {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.bubble-img {
+  height: 229px;
+  width: 100%;
+}
+
+.poly-img {
+  height: 229px;
+  width:100%;
+}
+/*.hero-poly {
+  position: relative;
+  color: #bca480;
+  text-decoration: none !important;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  width: 100%;
+}
+.hero-poly:hover {
+  color: #4c4c4c;
+}
+.hero-bubble {
+  position: relative;
+  color: #bca480;
+  text-decoration: none !important;
+  -webkit-transition: color 0.3s;
+  width: 100%;
+  transition: color 0.3s;
+}
+
+.hero-test {
+  position: relative;
+  color: #bca480;
+  text-decoration: none !important;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;*/
+/*.poly-button {
+  position: absolute;
+}*/
+
+/*
+.image-test:before{
+  content: '';
+  display: block;
+  padding-top: 100%;
+  background-image: url('../photos/polymer.jpg');
+  color: #4c4c4c;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.image-test {
+  display: block;
+  color: #4c4c4c;
+}*/
+/*.hero-bubble:before{
+  content: '';
+  display: block;
+  padding-top: 100%;
+  background-image: url('../photos/bubble-bucket.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.hero-test:before{
+  content: '';
+  display: block;
+  padding-top: 100%;
+  background-image: url('../photos/portfolio.jpg');
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position:center;
+}*/
+/*.hero-poly .poly-button{
+  position: absolute;
+  top: 90%;
+  right: auto;
+  bottom: auto;
+  left: 50%;
+  color: #e3b56f;
+  background-color: #000;
+  transform: translateY(-50%) translateX(-50%);
+}*/
+
+
+/*.poly-button:after {
+content: '\f138';
+font-family: FontAwesome;
+font-size: 18px;
+color: #e3b56f;
+margin-left: 20px
+}
+
+.poly-button:hover:after {
+content: '\f138';
+font-family: FontAwesome;
+font-size: 18px;
+color: #fff;
+margin-left: 20px
+}*/
 
 .form-control {
   border-radius: 2px !important;
@@ -423,7 +543,7 @@ h3 {
 }
 
 .btn-main {
-  color: #e3b56f;
+  color: #33C1FF;
   background-color: #000;
   border: none
 }
@@ -432,7 +552,7 @@ h3 {
   content: '\f138';
   font-family: FontAwesome;
   font-size: 18px;
-  color: #e3b56f;
+  color: #33C1FF;
   margin-left: 20px
 }
 
