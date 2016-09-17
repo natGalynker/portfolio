@@ -765,7 +765,7 @@ margin-left: 20px
 /* 4. NAVIGATION */
 
 .navbar-default {
-  background-color: #fff;
+  background-color: #000;
   border-width: 0;
   margin-bottom: 0 !important;
   height: 102px;
@@ -787,8 +787,8 @@ margin-left: 20px
 }
 
 .st-navbar-mini .navbar-default .navbar-nav>li.active>a, .st-navbar-mini .navbar-default .navbar-nav>li.active a:hover, .st-navbar-mini .navbar-default .navbar-nav>li.active a:focus, .st-navbar-mini .navbar-default .navbar-nav>li.active a:active {
-  background-color: #bca480;
-  color: #000
+  background-color: #9018e3;
+  color: #fff
 }
 
 .navbar-brand {
@@ -811,36 +811,36 @@ margin-left: 20px
   letter-spacing: 1px;
   padding-left: 20px;
   padding-right: 20px;
-  color: #000;
+  color: #fff;
   -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
   transition: color 0.3s, background-color 0.3s, padding 0.3s;
   text-transform: uppercase
 }
 
 .st-navbar-mini .navbar-default a {
-  color: #fff!important
+  color: #fff !important
 }
 
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>li>a:active {
-  color: #bca480;
+  color: #9018e3;
   outline-width: 0;
 }
 
 .navbar-nav>li.active>a, .navbar-nav>li.active a:hover, .navbar-nav>li.active a:focus, .navbar-nav>li.active a:active {
-  color: #bca480;
+  color: #9018e3;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #000;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li.active a:hover, .navbar-default .navbar-nav>li.active a:focus, .navbar-default .navbar-nav>li.active a:active {
-  color: #bca480;
+  color: #9018e3;
   background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: #bca480;
+  color: #9018e3;
 }
 
 
@@ -1028,7 +1028,7 @@ margin-left: 20px
 
 .team-info {
   width: 100%;
-  background: #bca480;
+  background: #6d8b9a;
   padding-top: 60px;
   padding-bottom: 60px;
   overflow: hidden
@@ -1074,10 +1074,10 @@ margin-left: 20px
   font-family: 'Montserrat', sans-serif;
   display: block;
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 30px;
-  font-weight: bold;
-  letter-spacing: 3px;
+  font-weight: 800;
+  letter-spacing: 5px;
   margin-bottom: 0;
   text-transform: uppercase
 }
@@ -1096,7 +1096,7 @@ margin-left: 20px
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   line-height: 18px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   margin-bottom: 0px;
   color: #efe0ca
