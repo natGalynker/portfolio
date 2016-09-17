@@ -55,7 +55,11 @@ body {
   line-height: 1.7em;
   word-spacing: 2px;
   -webkit-font-smoothing: antialiased;
-  background: #fff
+  background: radial-gradient(
+      #3e8398,
+      #b7a7c2,
+      #9fcbd9
+      );
 }
 
 p {
@@ -122,97 +126,6 @@ h3 {
   height: 229px;
   width:100%;
 }
-/*.hero-poly {
-  position: relative;
-  color: #bca480;
-  text-decoration: none !important;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-  width: 100%;
-}
-.hero-poly:hover {
-  color: #4c4c4c;
-}
-.hero-bubble {
-  position: relative;
-  color: #bca480;
-  text-decoration: none !important;
-  -webkit-transition: color 0.3s;
-  width: 100%;
-  transition: color 0.3s;
-}
-
-.hero-test {
-  position: relative;
-  color: #bca480;
-  text-decoration: none !important;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;*/
-/*.poly-button {
-  position: absolute;
-}*/
-
-/*
-.image-test:before{
-  content: '';
-  display: block;
-  padding-top: 100%;
-  background-image: url('../photos/polymer.jpg');
-  color: #4c4c4c;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position:center;
-}
-.image-test {
-  display: block;
-  color: #4c4c4c;
-}*/
-/*.hero-bubble:before{
-  content: '';
-  display: block;
-  padding-top: 100%;
-  background-image: url('../photos/bubble-bucket.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position:center;
-}
-.hero-test:before{
-  content: '';
-  display: block;
-  padding-top: 100%;
-  background-image: url('../photos/portfolio.jpg');
-  background-size: cover;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position:center;
-}*/
-/*.hero-poly .poly-button{
-  position: absolute;
-  top: 90%;
-  right: auto;
-  bottom: auto;
-  left: 50%;
-  color: #e3b56f;
-  background-color: #000;
-  transform: translateY(-50%) translateX(-50%);
-}*/
-
-
-/*.poly-button:after {
-content: '\f138';
-font-family: FontAwesome;
-font-size: 18px;
-color: #e3b56f;
-margin-left: 20px
-}
-
-.poly-button:hover:after {
-content: '\f138';
-font-family: FontAwesome;
-font-size: 18px;
-color: #fff;
-margin-left: 20px
-}*/
 
 .form-control {
   border-radius: 2px !important;
@@ -622,7 +535,7 @@ margin-left: 20px
 }
 
 .block1 {
-  overflow: hidden;
+  /*overflow: hidden;*/
   background: #fff;
   padding: 35px 20px;
   border-radius: 3px;
@@ -761,7 +674,7 @@ margin-left: 20px
 /* 4. NAVIGATION */
 
 .navbar-default {
-  background-color: #fff;
+  background-color: #000;
   border-width: 0;
   margin-bottom: 0 !important;
   height: 102px;
@@ -783,8 +696,8 @@ margin-left: 20px
 }
 
 .st-navbar-mini .navbar-default .navbar-nav>li.active>a, .st-navbar-mini .navbar-default .navbar-nav>li.active a:hover, .st-navbar-mini .navbar-default .navbar-nav>li.active a:focus, .st-navbar-mini .navbar-default .navbar-nav>li.active a:active {
-  background-color: #bca480;
-  color: #000
+  background-color: #9018e3;
+  color: #fff
 }
 
 .navbar-brand {
@@ -807,36 +720,36 @@ margin-left: 20px
   letter-spacing: 1px;
   padding-left: 20px;
   padding-right: 20px;
-  color: #000;
+  color: #fff;
   -webkit-transition: color 0.3s, background-color 0.3s, padding 0.3s;
   transition: color 0.3s, background-color 0.3s, padding 0.3s;
   text-transform: uppercase
 }
 
 .st-navbar-mini .navbar-default a {
-  color: #fff!important
+  color: #fff !important
 }
 
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>li>a:active {
-  color: #bca480;
+  color: #9018e3;
   outline-width: 0;
 }
 
 .navbar-nav>li.active>a, .navbar-nav>li.active a:hover, .navbar-nav>li.active a:focus, .navbar-nav>li.active a:active {
-  color: #bca480;
+  color: #9018e3;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #000;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li.active a:hover, .navbar-default .navbar-nav>li.active a:focus, .navbar-default .navbar-nav>li.active a:active {
-  color: #bca480;
+  color: #9018e3;
   background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: #bca480;
+  color: #9018e3;
 }
 
 
@@ -1018,13 +931,19 @@ margin-left: 20px
 }
 
 .st-member {
-  position: relative;
+  /*position: relative;*/
   overflow: hidden;
+}
+
+.about-natalia {
+  font-size: 25px;
+  color: #000;
+  opacity: .5;
 }
 
 .team-info {
   width: 100%;
-  background: #bca480;
+  background: #6d8b9a;
   padding-top: 60px;
   padding-bottom: 60px;
   overflow: hidden
@@ -1033,20 +952,16 @@ margin-left: 20px
 .team-info .block1 {
   overflow: hidden;
   background: none;
-  padding: 0px;
+  padding: 0;
+  float: right;
   border-radius: 3px;
   border-top: none
 }
 
-.st-member-img img {
-  border-radius: 150px;
-  border: 10px #ab926b solid;
-}
+  /**display: inline;*/
+  /**zoom: 1;*/
 
 .st-member .st-member-info {
-  width: 100%;
-  height: 100%;
-  padding: 30px 35px 0px 30px;
   top: 0;
   left: 0;
   text-align: center;
@@ -1055,7 +970,8 @@ margin-left: 20px
   transform: scale(1);
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: opacity 0.5s, transform 0.5s;
-  color: #fff
+  color: #fff;
+  padding: 270px 30px 35px 35px;
 }
 
 .st-member .st-member-info .progress-bar {
@@ -1073,11 +989,11 @@ margin-left: 20px
   font-family: 'Montserrat', sans-serif;
   display: block;
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 30px;
-  font-weight: bold;
-  letter-spacing: 3px;
-  margin-bottom: 0px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  margin-bottom: 0;
   text-transform: uppercase
 }
 
@@ -1095,7 +1011,7 @@ margin-left: 20px
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   line-height: 18px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   margin-bottom: 0px;
   color: #efe0ca
