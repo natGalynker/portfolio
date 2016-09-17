@@ -622,7 +622,7 @@ margin-left: 20px
 }
 
 .block1 {
-  overflow: hidden;
+  /*overflow: hidden;*/
   background: #fff;
   padding: 35px 20px;
   border-radius: 3px;
@@ -1018,7 +1018,7 @@ margin-left: 20px
 }
 
 .st-member {
-  position: relative;
+  /*position: relative;*/
   overflow: hidden;
 }
 
@@ -1033,20 +1033,16 @@ margin-left: 20px
 .team-info .block1 {
   overflow: hidden;
   background: none;
-  padding: 0px;
+  padding: 0;
+  float: right;
   border-radius: 3px;
   border-top: none
 }
 
-.st-member-img img {
-  border-radius: 150px;
-  border: 10px #ab926b solid;
-}
+  /**display: inline;*/
+  /**zoom: 1;*/
 
 .st-member .st-member-info {
-  width: 100%;
-  height: 100%;
-  padding: 30px 35px 0px 30px;
   top: 0;
   left: 0;
   text-align: center;
@@ -1077,7 +1073,7 @@ margin-left: 20px
   line-height: 30px;
   font-weight: bold;
   letter-spacing: 3px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   text-transform: uppercase
 }
 
