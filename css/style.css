@@ -126,97 +126,6 @@ h3 {
   height: 229px;
   width:100%;
 }
-/*.hero-poly {
-  position: relative;
-  color: #bca480;
-  text-decoration: none !important;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-  width: 100%;
-}
-.hero-poly:hover {
-  color: #4c4c4c;
-}
-.hero-bubble {
-  position: relative;
-  color: #bca480;
-  text-decoration: none !important;
-  -webkit-transition: color 0.3s;
-  width: 100%;
-  transition: color 0.3s;
-}
-
-.hero-test {
-  position: relative;
-  color: #bca480;
-  text-decoration: none !important;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;*/
-/*.poly-button {
-  position: absolute;
-}*/
-
-/*
-.image-test:before{
-  content: '';
-  display: block;
-  padding-top: 100%;
-  background-image: url('../photos/polymer.jpg');
-  color: #4c4c4c;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position:center;
-}
-.image-test {
-  display: block;
-  color: #4c4c4c;
-}*/
-/*.hero-bubble:before{
-  content: '';
-  display: block;
-  padding-top: 100%;
-  background-image: url('../photos/bubble-bucket.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position:center;
-}
-.hero-test:before{
-  content: '';
-  display: block;
-  padding-top: 100%;
-  background-image: url('../photos/portfolio.jpg');
-  background-size: cover;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position:center;
-}*/
-/*.hero-poly .poly-button{
-  position: absolute;
-  top: 90%;
-  right: auto;
-  bottom: auto;
-  left: 50%;
-  color: #e3b56f;
-  background-color: #000;
-  transform: translateY(-50%) translateX(-50%);
-}*/
-
-
-/*.poly-button:after {
-content: '\f138';
-font-family: FontAwesome;
-font-size: 18px;
-color: #e3b56f;
-margin-left: 20px
-}
-
-.poly-button:hover:after {
-content: '\f138';
-font-family: FontAwesome;
-font-size: 18px;
-color: #fff;
-margin-left: 20px
-}*/
 
 .form-control {
   border-radius: 2px !important;
@@ -1024,6 +933,12 @@ margin-left: 20px
 .st-member {
   /*position: relative;*/
   overflow: hidden;
+}
+
+.about-natalia {
+  font-size: 25px;
+  color: #000;
+  opacity: .5;
 }
 
 .team-info {
