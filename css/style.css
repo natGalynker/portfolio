@@ -55,7 +55,11 @@ body {
   line-height: 1.7em;
   word-spacing: 2px;
   -webkit-font-smoothing: antialiased;
-  background: #fff
+  background: radial-gradient(
+      #3e8398,
+      #b7a7c2,
+      #9fcbd9
+      );
 }
 
 p {
@@ -1051,7 +1055,8 @@ margin-left: 20px
   transform: scale(1);
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: opacity 0.5s, transform 0.5s;
-  color: #fff
+  color: #fff;
+  padding: 270px 30px 35px 35px;
 }
 
 .st-member .st-member-info .progress-bar {
