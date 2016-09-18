@@ -137,6 +137,11 @@ h3 {
   width: 100%;
 }
 
+.tree-img {
+  height: 10%;
+  width: 25%;
+}
+
 .resume-img {
   height: 50%;
   width: 50%;
@@ -1685,11 +1690,11 @@ ul.styled-list.list-star li:before {
   color: #fff;
 }
 
-.testimonial .testimonial-img {
+/*.testimonial .testimonial-img {
   float: left;
   margin-right: 30px;
   position: relative;
-}
+}*/
 
 .testimonial .testimonial-img:after {
   content: '';
@@ -1713,19 +1718,20 @@ ul.styled-list.list-star li:before {
   z-index: 99;
 }
 
-.testimonial .testimonial-img img {
+/*.testimonial .testimonial-img img {
   border-radius: 50%;
-}
+}*/
 
 .testimonial blockquote {
   border-width: 0;
 }
 
-.testimonial blockquote p {
+.testimonial blockquote h2 {
   font-weight: normal;
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 1px;
-  font-style: italic
+  font-style: italic;
+  text-align: center;
 }
 
 .testimonial blockquote footer, .testimonial blockquote small, .testimonial blockquote .small {
