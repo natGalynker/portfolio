@@ -137,6 +137,21 @@ h3 {
   width: 100%;
 }
 
+.resume-img {
+  height: 50%;
+  width: 50%;
+  float: right;
+  position: relative;
+  /*align-content: center;*/
+}
+.resume button {
+  position: absolute;
+  float: right;
+}
+.resume-header {
+text-align: center;
+}
+
 .form-control {
   border-radius: 2px !important;
   padding: 15px 20px !important;
@@ -1592,10 +1607,10 @@ ul.styled-list.list-star li:before {
   bottom: 50px;
   margin-right: -105px;
   opacity: 0;
-  /*-webkit-transform: translate3d(0, 60px, 0);
+  -webkit-transform: translate3d(0, 60px, 0);
   transform: translate3d(0, 60px, 0);
   -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
-  transition: transform 0.35s, opacity 0.35s;*/
+  transition: transform 0.35s, opacity 0.35s;
 }
 
 .row figure h2 {
@@ -1617,9 +1632,9 @@ ul.styled-list.list-star li:before {
 
 .row figure:hover img {
   opacity: 0.3;
-  -webkit-transform: scale(1.2);
+  /*-webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.2);*/
 }
 
 .row figure:hover h2 {
