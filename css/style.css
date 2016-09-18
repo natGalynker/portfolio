@@ -55,11 +55,7 @@ body {
   line-height: 1.7em;
   word-spacing: 2px;
   -webkit-font-smoothing: antialiased;
-  background: radial-gradient(
-      #3e8398,
-      #b7a7c2,
-      #9fcbd9
-      );
+  background: radial-gradient( #3e8398, #b7a7c2, #9fcbd9);
 }
 
 p {
@@ -85,6 +81,7 @@ a:hover {
 .hero:hover {
   color: #4c4c4c;
 }
+
 .test-poly {
   font-weight: bold;
   color: #000;
@@ -100,6 +97,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #4c4c4c;
   letter-spacing: 1px;
   font-weight: 400;
+}
+
+.about-natalia {
+  font-size: 15px;
+  text-align: center;
+}
+.Portfolio-welcome {
+  font-size: 30px;
+  text-align: center;
+}
+.about-header {
+  font-size: 32px;
+  text-align: center;
 }
 
 h3 {
@@ -124,7 +134,7 @@ h3 {
 
 .poly-img {
   height: 229px;
-  width:100%;
+  width: 100%;
 }
 
 .form-control {
@@ -958,8 +968,11 @@ h3 {
   border-top: none
 }
 
-  /**display: inline;*/
-  /**zoom: 1;*/
+
+/**display: inline;*/
+
+
+/**zoom: 1;*/
 
 .st-member .st-member-info {
   top: 0;
@@ -1054,28 +1067,28 @@ h3 {
   transition: background-color 0.3s, opacity 0.3s ease, transform 0.5s ease;
 }
 
-.st-member .st-member-info .st-member-social ul li a.facebook {
-  background-color: #3c5b9b;
+.st-member .st-member-info .st-member-social ul li a.linkedin {
+  background-color: #0077b5;
 }
 
-.st-member .st-member-info .st-member-social ul li a.facebook:hover {
-  background-color: #3c5b9b;
+.st-member .st-member-info .st-member-social ul li a.linkedin:hover {
+  background-color: #0077b5;
 }
 
-.st-member .st-member-info .st-member-social ul li a.twitter {
-  background-color: #2daae1;
+.st-member .st-member-info .st-member-social ul li a.github {
+  background-color: #333333;
 }
 
-.st-member .st-member-info .st-member-social ul li a.twitter:hover {
-  background-color: #2daae1;
+.st-member .st-member-info .st-member-social ul li a.github:hover {
+  background-color: #333333;
 }
 
-.st-member .st-member-info .st-member-social ul li a.dribbble {
-  background-color: #ea4c88;
+.st-member .st-member-info .st-member-social ul li a.google-plus {
+  background-color: #dd4b39;
 }
 
-.st-member .st-member-info .st-member-social ul li a.dribbble:hover {
-  background-color: #ea4c88;
+.st-member .st-member-info .st-member-social ul li a.google-plus:hover {
+  background-color: #dd4b39;
 }
 
 .st-member:hover {
@@ -1096,31 +1109,31 @@ h3 {
   transform: translateY(0);
 }
 
-.st-member:hover .st-member-info .st-member-social ul li a.facebook {
+.st-member:hover .st-member-info .st-member-social ul li a.linkedin {
   -webkit-transition: background-color 0.3s, opacity 0.3s ease 0.2s, -webkit-transform 0.5s ease 0.2s;
   transition: background-color 0.3s, opacity 0.3s ease 0.2s, transform 0.5s ease 0.2s;
 }
 
-.st-member:hover .st-member-info .st-member-social ul li a.facebook:hover {
-  background-color: #3c5b9b;
+.st-member:hover .st-member-info .st-member-social ul li a.linkedin:hover {
+  background-color: #0077b5;
 }
 
-.st-member:hover .st-member-info .st-member-social ul li a.twitter {
+.st-member:hover .st-member-info .st-member-social ul li a.github {
   -webkit-transition: background-color 0.3s, opacity 0.3s ease 0.3s, -webkit-transform 0.5s ease 0.3s;
   transition: background-color 0.3s, opacity 0.3s ease 0.3s, transform 0.5s ease 0.3s;
 }
 
-.st-member:hover .st-member-info .st-member-social ul li a.twitter:hover {
-  background-color: #2daae1;
+.st-member:hover .st-member-info .st-member-social ul li a.github:hover {
+  background-color: #333333;
 }
 
-.st-member:hover .st-member-info .st-member-social ul li a.dribbble {
+.st-member:hover .st-member-info .st-member-social ul li a.google-plus {
   -webkit-transition: background-color 0.3s, opacity 0.3s ease 0.4s, -webkit-transform 0.5s ease 0.4s;
   transition: background-color 0.3s, opacity 0.3s ease 0.4s, transform 0.5s ease 0.4s;
 }
 
-.st-member:hover .st-member-info .st-member-social ul li a.dribbble:hover {
-  background-color: #ea4c88;
+.st-member:hover .st-member-info .st-member-social ul li a.google-plus:hover {
+  background-color: #dd4b39;
 }
 
 .st-member:hover .st-member-info .skills .skill:nth-child(2) .progress-bar {
@@ -1396,6 +1409,11 @@ ul.styled-list.list-star li:before {
 
 /* 9 PORTFOLIO SECTION */
 
+.hover-container strong{
+  font-weight: bold;
+  font-size: 30px;
+  padding bottom: 10px;
+}
 .portfolio {
   padding: 70px 0 0;
 }
@@ -1559,7 +1577,64 @@ ul.styled-list.list-star li:before {
   transform: translate3d(0, 0, 0);
 }
 
-.grid figure:hover figcaption>a {
+.row figure figcaption {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.row figure figcaption>a {
+  z-index: 1000;
+  position: absolute;
+  right: 50%;
+  bottom: 50px;
+  margin-right: -105px;
+  opacity: 0;
+  /*-webkit-transform: translate3d(0, 60px, 0);
+  transform: translate3d(0, 60px, 0);
+  -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
+  transition: transform 0.35s, opacity 0.35s;*/
+}
+
+.row figure h2 {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+  margin: 0;
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  padding: 10px 0;
+  top: 100px;
+  line-height: 1.5;
+  -webkit-transform: translate3d(0, 50px, 0);
+  transform: translate3d(0, 50px, 0);
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+.row figure:hover img {
+  opacity: 0.3;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.row figure:hover h2 {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.row figure:hover h2::after {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.row figure:hover figcaption>a {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -1659,136 +1734,6 @@ ul.styled-list.list-star li:before {
   display: block;
 }
 
-
-/* 9 PRICING SECTION */
-
-.pricing {
-  padding: 70px 0;
-  background: #fff
-}
-
-.pricing-table {
-  border: 1px solid #e5e5e5;
-  border-radius: 5px;
-}
-
-.pricing-table .pricing-header .pt-price {
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  font-size: 40px;
-  line-height: 70px;
-  font-weight: 400;
-  text-align: center;
-  padding: 10px 40px;
-  background: #000;
-}
-
-.pricing-table .pricing-header .pt-price small {
-  font-size: 13px;
-  color: #9a9a9a;
-  font-weight: 300;
-}
-
-.pricing-table .pricing-header .pt-name {
-  font-family: 'Montserrat', sans-serif;
-  padding: 10px 40px;
-  text-align: center;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 40px;
-  color: #4c4c4c;
-  border-top: 1px solid #f2f2f2;
-  border-bottom: 1px solid #f2f2f2;
-}
-
-.pricing-table .pricing-body ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.pricing-table .pricing-body ul li {
-  padding: 8px 25px;
-  margin: 0;
-}
-
-.pricing-table .pricing-body ul li:nth-child(even) {
-  background-color: #fafafa;
-}
-
-.pricing-table .pricing-body ul li .fa-times {
-  color: #ff6666;
-}
-
-.pricing-table .pricing-body ul li .fa-check {
-  color: #bca480;
-}
-
-.pricing-table .pricing-footer {
-  text-align: center;
-  padding: 15px 40px;
-  border-top: 1px solid #f2f2f2;
-}
-
-.pricing-table.featured .pricing-header {
-  position: relative;
-  overflow: hidden;
-}
-
-.pricing-table.featured .pricing-header .pt-price {
-  color: #cfa76a;
-}
-
-.pricing-table.featured .pricing-header .pt-price small {
-  color: #cfa76a;
-}
-
-.pricing-table.featured .pricing-header .pt-name {
-  color: #bca480;
-}
-
-.pricing-table.featured .pricing-header .featured-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-  line-height: 15px;
-  letter-spacing: 1px;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-align: center;
-  background-color: #cfa76a;
-  color: #fff;
-  position: absolute;
-  top: 22px;
-  left: -28px;
-  padding: 5px 0;
-  width: 126px;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-.faq-sec {
-  padding: 70px 0px;
-  border-top: 1px #e5e5e5 solid
-}
-
-.faq-sec .block {
-  padding-bottom: 5px
-}
-
-.faq {
-  margin-bottom: 50px;
-}
-
-.faq h3 {
-  margin-bottom: 15px;
-}
-
-.faq h3 i {
-  color: #bca480;
-  font-size: 24px;
-}
-
 .call-us {
   padding: 50px 0;
   background-color: #bca480;
@@ -1809,261 +1754,6 @@ ul.styled-list.list-star li:before {
   margin: 0 30px 0 0;
   letter-spacing: 2px;
   word-spacing: 5px;
-}
-
-
-/* 10 BLOG SECTION */
-
-.blog {
-  padding: 70px 0;
-}
-
-.blog-post {
-  border-bottom: 1px dotted #f2f2f2;
-  margin-bottom: 60px;
-}
-
-.blog-post:last-child {
-  margin-bottom: 0px;
-  border-bottom: none
-}
-
-.blog-post .author img {
-  border-radius: 50%;
-}
-
-.blog-post .post-meta {
-  margin-bottom: 10px;
-  font-size: 13px;
-}
-
-.blog-post .post-meta a {
-  font-weight: bold;
-  color: #4c4c4c;
-}
-
-.blog-post .post-meta a:hover {
-  color: #bca480;
-}
-
-.blog-post .post-meta strong {
-  color: #4c4c4c;
-}
-
-.blog-post .post-title {
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-weight: bold;
-  letter-spacing: normal
-}
-
-.blog-post .post-title a {
-  color: #000
-}
-
-.blog-post .post-thumb {
-  margin-bottom: 40px;
-}
-
-.blog-post .post-thumb img {
-  border-radius: 10px;
-}
-
-.widgets {
-  padding: 30px;
-  background: #f8f8f8
-}
-
-.widget {
-  margin-bottom: 60px;
-}
-
-.widget ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.widget ul li {
-  border-bottom: 1px solid #f2f2f2;
-}
-
-.widget ul li a {
-  display: block;
-  -webkit-transition: text-indent 0.3s, color 0.3s;
-  transition: text-indent 0.3s, color 0.3s;
-  padding: 5px 0;
-}
-
-.widget ul li a:hover {
-  text-indent: 20px;
-}
-
-.widget ul li a:hover .badge {
-  text-indent: 0;
-  background-color: #4c4c4c;
-}
-
-.widget ul li .recent-post {
-  padding: 10px 0;
-}
-
-.widget ul li .recent-post .post-thumb {
-  display: block;
-  float: left;
-  margin-right: 15px;
-}
-
-.widget ul li .recent-post .post-thumb img {
-  border-radius: 10px;
-}
-
-.widget ul li .recent-post .post-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  letter-spacing: 0;
-  font-size: 15px;
-  margin: 0 0 5px;
-}
-
-.widget ul li .recent-post .post-title a {
-  display: inline;
-}
-
-.widget ul li .recent-post .post-meta {
-  font-size: 12px;
-}
-
-.widget ul li .recent-post .post-meta a {
-  font-weight: bold;
-  color: #4c4c4c;
-}
-
-.widget ul li .recent-post .post-meta a:hover {
-  color: #bca480;
-}
-
-.widget ul li .recent-post a {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  padding: 0;
-}
-
-.widget ul li .recent-post a:hover {
-  text-indent: 0;
-}
-
-.widget ul li .badge {
-  font-size: 10px;
-  font-weight: 300;
-  vertical-align: middle;
-  margin-top: 5px;
-  text-indent: 0;
-  background-color: #bca480;
-  -webkit-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-.widget .widget-title {
-  font-weight: bold;
-  font-size: 18px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.widget .tagcloud a {
-  font-size: 13px;
-  border-radius: 40px;
-  color: #737373;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  padding: 3px 20px;
-  border-color: #e5e5e5;
-  border-width: 1px;
-  border-style: solid;
-  margin-bottom: 6px;
-  -webkit-transition: color 0.3s, background-color 0.3s, border-color 0.3s;
-  transition: color 0.3s, background-color 0.3s, border-color 0.3s;
-  background: #f8f8f8
-}
-
-.widget .tagcloud a:hover {
-  border-color: #bca480;
-  background-color: #bca480;
-  color: #fff;
-}
-
-.subscribe {
-  padding: 100px 0;
-  background-image: url(../images/subscribe2.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-color: #000;
-}
-
-.subscribe .btn-main {
-  color: #fff;
-  background-color: #bca480;
-  border: none;
-}
-
-.subscribe .btn-main:after {
-  color: #fff
-}
-
-.subscribe .subscribe-title {
-  text-align: center;
-  color: #fff;
-  margin-bottom: 50px;
-  font-size: 32px;
-  text-transform: uppercase;
-  font-weight: 300;
-}
-
-.subscribe .subscribe-or {
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  text-align: center;
-  font-size: 20px;
-  padding: 30px 0;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-.subscribe .subscribe-social {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-align: center;
-}
-
-.subscribe .subscribe-social li {
-  padding: 0;
-  margin: 0;
-  margin-right: 5px;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-}
-
-.subscribe-form {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.subscribe-form .form-control {
-  border-radius: 30px 2px 2px 30px !important;
-  padding: 14px 20px 14px 30px !important;
-}
-
-.input-group .form-control {
-  border-radius: 0px !important;
-  padding: 12px 20px 13px 30px !important;
 }
 
 a.social {
@@ -2105,27 +1795,27 @@ a.social:hover i {
   text-indent: 29px;
 }
 
-a.social.twitter {
-  background-color: #2daae1;
+a.social.github {
+  background-color: #333333;
 }
 
-a.social.twitter i {
+a.social.github i {
   background-color: #1a87b7;
 }
 
-a.social.twitter:hover {
+a.social.github:hover {
   background-color: #1a87b7;
 }
 
-a.social.facebook {
-  background-color: #3c5b9b;
+a.social.linkedin {
+  background-color: #0077b5;
 }
 
-a.social.facebook i {
+a.social.linkedin i {
   background-color: #2b416f;
 }
 
-a.social.facebook:hover {
+a.social.linkedin:hover {
   background-color: #2b416f;
 }
 
@@ -2208,6 +1898,25 @@ footer.site-footer a:hover {
 
 /* 13 RESPONSIVE */
 
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .about-natalia {
+    font-size: 15px;
+    text-align: center;
+  }
+  .Portfolio-welcome {
+    font-size: 30px;
+    text-align: center;
+  }
+  .about-header {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-nav>li>a {
     padding-top: 41px;
@@ -2253,6 +1962,7 @@ footer.site-footer a:hover {
     width: 100%;
     padding: 0;
   }
+
   .grid figure {
     position: relative;
     float: left;
