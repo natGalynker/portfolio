@@ -63,12 +63,12 @@ p {
 }
 
 ::selection {
-  background: #bca480;
+  background: #3b3954;
   color: #FFF;
 }
 
 a {
-  color: #bca480;
+  color: #3b3954;
   text-decoration: none !important;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
@@ -110,6 +110,14 @@ h1, h2, h3, h4, h5, h6 {
 .about-header {
   font-size: 32px;
   text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  color:#3b3954 !important;
+  font-weight: bold;
+  font-size: 20px;
+
 }
 
 h3 {
