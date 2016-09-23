@@ -99,10 +99,26 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.about-natalia {
+.team-info {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.pull-left.text-area{
   font-size: 15px;
   text-align: center;
+  left: 100px;
+  float: left;
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  margin-bottom: 150px;
+  float: left !important;
+  padding-left: 50px;
+
 }
+
 .Portfolio-welcome {
   font-size: 30px;
   text-align: center;
@@ -963,10 +979,10 @@ text-align: center;
   padding-bottom: 10px
 }
 
-.about p {
+/*.about p {
   margin-bottom: 0;
   text-align: center
-}
+}*/
 
 .st-member {
   /*position: relative;*/
@@ -1047,6 +1063,12 @@ text-align: center;
   margin: 0 auto;
 }
 
+.this-is-a-test {
+  position: absolute;
+  float: right;
+  padding-left: 500px;
+}
+
 .st-member .st-member-info .st-member-pos {
   display: block;
   font-family: 'Montserrat', sans-serif;
@@ -1111,14 +1133,6 @@ text-align: center;
   background-color: #333333;
 }
 
-.st-member .st-member-info .st-member-social ul li a.google-plus {
-  background-color: #dd4b39;
-}
-
-.st-member .st-member-info .st-member-social ul li a.google-plus:hover {
-  background-color: #dd4b39;
-}
-
 .st-member:hover {
   cursor: pointer;
 }
@@ -1155,14 +1169,6 @@ text-align: center;
   background-color: #333333;
 }
 
-.st-member:hover .st-member-info .st-member-social ul li a.google-plus {
-  -webkit-transition: background-color 0.3s, opacity 0.3s ease 0.4s, -webkit-transform 0.5s ease 0.4s;
-  transition: background-color 0.3s, opacity 0.3s ease 0.4s, transform 0.5s ease 0.4s;
-}
-
-.st-member:hover .st-member-info .st-member-social ul li a.google-plus:hover {
-  background-color: #dd4b39;
-}
 
 .st-member:hover .st-member-info .skills .skill:nth-child(2) .progress-bar {
   -webkit-transition-delay: 0.3s;
