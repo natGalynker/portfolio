@@ -99,24 +99,37 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+.st-member-info::after {
+  content:"";
+  display:table;
+  clear:both;
+}
 .team-info {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.pull-left.text-area{
+.pull-left.text-area {
   font-size: 15px;
   text-align: center;
-  left: 100px;
-  float: left;
   width: 40%;
   height: 100%;
   position: absolute;
-  margin-bottom: 150px;
-  float: left !important;
-  padding-left: 50px;
+  color: #000;
+}
 
+.pull-left.text-area h1 h2 {
+  text-align: center;
+  font-size: 30px;
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  color: #000;
+}
+
+.natalia-text.pull-left {
+  text-align: center;
 }
 
 .Portfolio-welcome {
@@ -1003,16 +1016,27 @@ text-align: center;
   overflow: hidden
 }
 
-.team-info .block1 {
+/*.team-info .block1 {
   overflow: hidden;
   background: none;
   padding: 0;
   float: right;
   border-radius: 3px;
   border-top: none
+}*/
+
+.block1.about-natalia-info {
+  overflow: hidden;
+  background: none;
+  padding: 0;
+  float: right;
+  border-radius: 3px;
+  border-top: none;
 }
 
-
+.natalia-text .about-header {
+  padding-left: 180px;
+}
 /**display: inline;*/
 
 
@@ -1063,11 +1087,11 @@ text-align: center;
   margin: 0 auto;
 }
 
-.this-is-a-test {
+/*.this-is-a-test {
   position: absolute;
   float: right;
   padding-left: 500px;
-}
+}*/
 
 .st-member .st-member-info .st-member-pos {
   display: block;
