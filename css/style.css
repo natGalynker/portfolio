@@ -1467,11 +1467,12 @@ ul.styled-list.list-star li:before {
 
 /* 9 PORTFOLIO SECTION */
 
-.hover-container strong{
+/*.hover-container strong{
   font-weight: bold;
   font-size: 30px;
   padding bottom: 10px;
-}
+}*/
+
 .portfolio {
   padding: 70px 0 0;
 }
@@ -1515,7 +1516,7 @@ ul.styled-list.list-star li:before {
   padding: 0;
 }
 
-.grid figure {
+/*.grid figure {
   position: relative;
   float: left;
   overflow: hidden;
@@ -1524,7 +1525,7 @@ ul.styled-list.list-star li:before {
   cursor: pointer;
   width: 33.33333333%;
   box-sizing: border-box;
-}
+}*/
 
 .grid figure img {
   position: relative;
@@ -1536,13 +1537,13 @@ ul.styled-list.list-star li:before {
   transition: opacity 0.3s, transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.grid figure figcaption {
+/*.grid figure figcaption {
   color: #fff;
   text-transform: uppercase;
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-}
+}*/
 
 .grid figure figcaption>a {
   z-index: 1000;
@@ -1556,8 +1557,20 @@ ul.styled-list.list-star li:before {
   -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
   transition: transform 0.35s, opacity 0.35s;
 }
+/*.btn.btn-main.git {
+  z-index: 1000;
+  position: absolute;
+  right: 50%;
+  bottom: 100px;
+  margin-right: -105px;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 60px, 0);
+  transform: translate3d(0, 60px, 0);
+  -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
+  transition: transform 0.35s, opacity 0.35s;
+}*/
 
-.grid figure h2 {
+/*.grid figure h2 {
   color: #fff;
   font-weight: 300;
   margin: 0;
@@ -1571,9 +1584,9 @@ ul.styled-list.list-star li:before {
   transition: transform 0.35s, opacity 0.35s;
   -webkit-transform: translate3d(0, 20px, 0);
   transform: translate3d(0, 20px, 0);
-}
+}*/
 
-.grid figure h2::after {
+/*.grid figure h2::after {
   position: absolute;
   top: 100%;
   left: 50%;
@@ -1587,13 +1600,13 @@ ul.styled-list.list-star li:before {
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-}
+}*/
 
-.grid figure h2 span {
+/*.grid figure h2 span {
   font-weight: 800;
-}
+}*/
 
-.grid figure p {
+/*.grid figure p {
   letter-spacing: 1px;
   font-size: 68.5%;
   margin: 0;
@@ -1608,9 +1621,9 @@ ul.styled-list.list-star li:before {
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-}
+}*/
 
-.grid figure:hover h2 {
+/*.grid figure:hover h2 {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -1633,7 +1646,7 @@ ul.styled-list.list-star li:before {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-}
+}*/
 
 .row figure figcaption {
   color: #fff;
