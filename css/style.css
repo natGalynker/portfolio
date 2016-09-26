@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-.pull-left.text-area {
+.text-area {
   font-size: 15px;
   text-align: center;
   width: 40%;
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
 
-.pull-left.text-area h1 h2 {
+.text-area h1 h2 {
   text-align: center;
   font-size: 30px;
   width: 40%;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   text-align: center;
 }
-.about-header {
+.about-header.pull-left {
   font-size: 32px;
   text-align: center;
 }
@@ -1550,84 +1550,6 @@ ul.styled-list.list-star li:before {
   transition: transform 0.35s, opacity 0.35s;
 }
 
-/*.grid figure h2 {
-  color: #fff;
-  font-weight: 300;
-  margin: 0;
-  position: absolute;
-  right: 30px;
-  left: 30px;
-  padding: 10px 0;
-  top: 30px;
-  opacity: 0;
-  -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
-  transition: transform 0.35s, opacity 0.35s;
-  -webkit-transform: translate3d(0, 20px, 0);
-  transform: translate3d(0, 20px, 0);
-}*/
-
-/*.grid figure h2::after {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  width: 80px;
-  margin-left: -40px;
-  height: 1px;
-  background: #0f4069;
-  content: '';
-  -webkit-transform: translate3d(0, 40px, 0);
-  transform: translate3d(0, 40px, 0);
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-}*/
-
-/*.grid figure h2 span {
-  font-weight: 800;
-}
-
-.grid figure p {
-  letter-spacing: 1px;
-  font-size: 68.5%;
-  margin: 0;
-  position: absolute;
-  right: 30px;
-  left: 30px;
-  padding: 10px 0;
-  top: 100px;
-  line-height: 1.5;
-  -webkit-transform: translate3d(0, 50px, 0);
-  transform: translate3d(0, 50px, 0);
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-}*/
-
-/*.grid figure:hover h2 {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.grid figure:hover h2::after {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}*/
-
-/*.grid figure:hover img {
-  opacity: 0.3;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.grid figure:hover p {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}*/
-
 .row figure figcaption {
   color: #fff;
   text-transform: uppercase;
@@ -1698,11 +1620,7 @@ ul.styled-list.list-star li:before {
   color: #fff;
 }
 
-/*.testimonial .testimonial-img {
-  float: left;
-  margin-right: 30px;
-  position: relative;
-}*/
+
 
 .testimonial .testimonial-img:after {
   content: '';
@@ -1927,15 +1845,51 @@ footer.site-footer a:hover {
 
 /* 13 RESPONSIVE */
 
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+@media only screen and (min-width: 320px) and (max-width: 700px) {
   p {
     font-size: 10px;
     text-align: center;
   }
+  .natalia-text {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .text-container.pull-center {
+  width: 50%;
+}
+
   .about-natalia {
     font-size: 15px;
     text-align: center;
   }
+  .Portfolio-welcome {
+    font-size: 30px;
+    text-align: center;
+  }
+  .about-header {
+    font-size: 22px;
+    text-align: center;
+  }
+  .text-area {
+    font-size: 10px;
+    text-align: center;
+    /*width: 100%;
+    height: 100%;*/
+    color: #000;
+  }
+
+  .text-area h1 h2 {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+  }
+
+  .natalia-text {
+    text-align: center;
+  }
+
   .Portfolio-welcome {
     font-size: 30px;
     text-align: center;
@@ -1986,7 +1940,7 @@ footer.site-footer a:hover {
   }
 }
 
-@media (min-width: 1440px) {
+/*@media (min-width: 1440px) {
   .grid {
     width: 100%;
     padding: 0;
@@ -2000,5 +1954,5 @@ footer.site-footer a:hover {
     text-align: center;
     cursor: pointer;
     width: 25%;
-  }
+  }*/
 }
