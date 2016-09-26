@@ -1312,8 +1312,9 @@ text-align: center;
   line-height: 100px;
   font-size: 42px;
   color: #fff;
+  opacity: .5;
   margin: 0 auto 20px;
-  background-color: #bca480;
+  background-color: #723d6d;
   position: relative;
   -webkit-transform: rotate(0) scale(1);
   -ms-transform: rotate(0) scale(1);
@@ -1329,12 +1330,12 @@ text-align: center;
   line-height: 30px;
   letter-spacing: normal;
   font-weight: bold;
-  color: #bca480;
+  color: #775791;
   margin-bottom: 0px;
 }
 
 .st-feature:hover .st-feature-icon {
-  color: #bca480;
+  color: #775791;
   border-color: #ffb400;
   background-color: transparent;
   -webkit-transform: rotate(360deg) scale(1.8);
@@ -1483,7 +1484,7 @@ ul.styled-list.list-star li:before {
   font-family: FontAwesome;
   font-size: 16px;
   color: #bca480;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 .filter .btn-main.git:hover:after {
@@ -1491,16 +1492,11 @@ ul.styled-list.list-star li:before {
   font-family: FontAwesome;
   font-size: 16px;
   color: #bca480;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 
-.grid {
-  width: 100%;
-  padding: 0;
-}
-
-.grid figure {
+/*.grid figure {
   position: relative;
   float: left;
   overflow: hidden;
@@ -1509,9 +1505,9 @@ ul.styled-list.list-star li:before {
   cursor: pointer;
   width: 33.33333333%;
   box-sizing: border-box;
-}
+}*/
 
-.grid figure img {
+/*.grid figure img {
   position: relative;
   display: block;
   min-height: 100%;
@@ -1519,17 +1515,17 @@ ul.styled-list.list-star li:before {
   opacity: 1;
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: opacity 0.3s, transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
+}*/
 
-.grid figure figcaption {
+/*.grid figure figcaption {
   color: #fff;
   text-transform: uppercase;
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-}
+}*/
 
-.grid figure figcaption>a {
+/*.grid figure figcaption>a {
   z-index: 1000;
   position: absolute;
   right: 50%;
@@ -1540,7 +1536,7 @@ ul.styled-list.list-star li:before {
   transform: translate3d(0, 60px, 0);
   -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
   transition: transform 0.35s, opacity 0.35s;
-}
+}*/
 .btn.btn-main.git {
   z-index: 1000;
   position: absolute;
@@ -1554,7 +1550,7 @@ ul.styled-list.list-star li:before {
   transition: transform 0.35s, opacity 0.35s;
 }
 
-.grid figure h2 {
+/*.grid figure h2 {
   color: #fff;
   font-weight: 300;
   margin: 0;
@@ -1568,9 +1564,9 @@ ul.styled-list.list-star li:before {
   transition: transform 0.35s, opacity 0.35s;
   -webkit-transform: translate3d(0, 20px, 0);
   transform: translate3d(0, 20px, 0);
-}
+}*/
 
-.grid figure h2::after {
+/*.grid figure h2::after {
   position: absolute;
   top: 100%;
   left: 50%;
@@ -1584,9 +1580,9 @@ ul.styled-list.list-star li:before {
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-}
+}*/
 
-.grid figure h2 span {
+/*.grid figure h2 span {
   font-weight: 800;
 }
 
@@ -1605,9 +1601,9 @@ ul.styled-list.list-star li:before {
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-}
+}*/
 
-.grid figure:hover h2 {
+/*.grid figure:hover h2 {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -1617,9 +1613,9 @@ ul.styled-list.list-star li:before {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-}
+}*/
 
-.grid figure:hover img {
+/*.grid figure:hover img {
   opacity: 0.3;
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -1630,7 +1626,7 @@ ul.styled-list.list-star li:before {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-}
+}*/
 
 .row figure figcaption {
   color: #fff;
@@ -1653,29 +1649,6 @@ ul.styled-list.list-star li:before {
   transition: transform 0.35s, opacity 0.35s;
 }
 
-.row figure h2 {
-  letter-spacing: 1px;
-  font-size: 68.5%;
-  margin: 0;
-  position: absolute;
-  right: 30px;
-  left: 30px;
-  padding: 10px 0;
-  top: 100px;
-  line-height: 1.5;
-  -webkit-transform: translate3d(0, 50px, 0);
-  transform: translate3d(0, 50px, 0);
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-}
-
-.row figure:hover img {
-  opacity: 0.3;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
 
 .row figure:hover h2 {
   opacity: 1;
