@@ -187,7 +187,7 @@
   margin-bottom: 0;
   text-transform: uppercase;
   font-size: 12px;
-  background: #bca480;
+  background: #516576;
   color: #fff;
   padding: 0px 35px;
   line-height: 50px
@@ -246,9 +246,9 @@
   -webkit-transition: all 0.3s cubic-bezier(0.8, 0, 0, 1);
   -o-transition: all 0.3s cubic-bezier(0.8, 0, 0, 1);
   transition: all 0.3s cubic-bezier(0.8, 0, 0, 1);
-  -webkit-box-shadow: inset 0 -34px 0 0 #bca480;
-  box-shadow: inset 0 -60px 0 0 #bca480;
-  border-color: #bca480
+  -webkit-box-shadow: inset 0 -34px 0 0 #516576;
+  box-shadow: inset 0 -60px 0 0 #516576;
+  border-color: #516576
 }
 
 .buy-btn:hover:after {
