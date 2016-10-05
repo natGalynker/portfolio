@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-area {
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   width: 60%;
   height: 100%;
@@ -1921,6 +1921,11 @@ footer.site-footer a:hover {
     font-size: 30px;
     line-height: normal
   }
+.st-member{
+  width: 100%;
+  align-items: center;
+}
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
