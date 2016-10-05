@@ -1845,7 +1845,7 @@ footer.site-footer a:hover {
 
 /* 13 RESPONSIVE */
 
-@media only screen and (min-width: 320px) and (max-width: 700px) {
+@media only screen and (min-width: 320px) and (max-width: 423px) {
   p {
     font-size: 10px;
     text-align: center;
@@ -1864,7 +1864,7 @@ footer.site-footer a:hover {
     font-size: 15px;
     text-align: center;
   }
-  .Portfolio-welcome {
+  /*.Portfolio-welcome {
     font-size: 30px;
     text-align: center;
   }
@@ -1874,10 +1874,10 @@ footer.site-footer a:hover {
   }
   .text-area {
     font-size: 10px;
-    text-align: center;
+    text-align: center;*/
     /*width: 100%;
     height: 100%;*/
-    color: #000;
+    /*color: #000;
   }
 
   .text-area h1 h2 {
@@ -1897,7 +1897,7 @@ footer.site-footer a:hover {
   .about-header {
     font-size: 32px;
     text-align: center;
-  }
+  }*/
 }
 
 @media (min-width: 768px) {
