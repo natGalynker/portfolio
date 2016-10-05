@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 .text-area {
   font-size: 15px;
   text-align: center;
-  width: 40%;
+  width: 60%;
   height: 100%;
   position: absolute;
   color: #000;
@@ -1035,7 +1035,8 @@ text-align: center;
 }
 
 .natalia-text .about-header {
-  padding-left: 180px;
+  padding-left: 270px;
+  align-content: center;
 }
 /**display: inline;*/
 
