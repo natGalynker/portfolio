@@ -92,13 +92,31 @@ a:hover {
   color: #704EE3;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,  h3, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  color: #4c4c4c;
+  color: #054044;
   letter-spacing: 1px;
   font-weight: 400;
 }
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #054044;
+  letter-spacing: .5px;
+  font-weight: 800;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #07043f;
+  letter-spacing: .25px;
+  font-weight: 200;
+  font-size: 15px !important;
+}
+
+.project-title {
+  font-size: 22px;
+}
 .st-member-info::after {
   content:"";
   display:table;
@@ -1853,52 +1871,21 @@ footer.site-footer a:hover {
   }
   .natalia-text {
     width: 100%;
-    height: 100%;
+    height: 10%;
     position: relative;
   }
+  .text-area{
+     width: 100%;
+     height: 100%;
+     align-items: center;
+   }
 
-  .text-container.pull-center {
-  width: 50%;
-}
+
 
   .about-natalia {
     font-size: 15px;
     text-align: center;
   }
-  /*.Portfolio-welcome {
-    font-size: 30px;
-    text-align: center;
-  }
-  .about-header {
-    font-size: 22px;
-    text-align: center;
-  }
-  .text-area {
-    font-size: 10px;
-    text-align: center;*/
-    /*width: 100%;
-    height: 100%;*/
-    /*color: #000;
-  }
-
-  .text-area h1 h2 {
-    text-align: center;
-    font-size: 15px;
-    color: #000;
-  }
-
-  .natalia-text {
-    text-align: center;
-  }
-
-  .Portfolio-welcome {
-    font-size: 30px;
-    text-align: center;
-  }
-  .about-header {
-    font-size: 32px;
-    text-align: center;
-  }*/
 }
 
 @media (min-width: 768px) {
