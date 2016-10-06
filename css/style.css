@@ -1879,6 +1879,13 @@ footer.site-footer a:hover {
      height: 100%;
      align-items: center;
    }
+   .resume-img{
+   height: 300px;
+   width: 300px;
+   float: right;
+  *zoom: 4;
+   position: relative;
+ }
 
 
 
