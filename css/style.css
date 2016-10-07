@@ -87,6 +87,16 @@ a:hover {
   color: #000;
 }
 
+.poly-img {
+  transform: scale(1.2);
+  height: 50%;
+}
+
+.bubble-img {
+  transform: scale(1.15);
+  height: 50%;
+}
+
 .test-bubble {
   font-weight: bold;
   color: #704EE3;
@@ -116,6 +126,7 @@ h4 {
 
 .project-title {
   font-size: 22px;
+  margin: 5%;
 }
 .st-member-info::after {
   content:"";
@@ -185,11 +196,13 @@ h3 {
 .bubble-img {
   height: 229px;
   width: 100%;
+  margin: %;
 }
 
 .poly-img {
   height: 229px;
   width: 100%;
+  margin: 5%;
 }
 
 .tree-img {
@@ -543,7 +556,8 @@ text-align: center;
 .btn-main {
   color: #33C1FF;
   background-color: #000;
-  border: none
+  border: none;
+  margin: 5%;
 }
 
 .btn-main:after {
@@ -1872,7 +1886,7 @@ footer.site-footer a:hover {
 }
 
 @media only screen and (min-width: 767x) and (max-width: 990px) {
-  .portfolio-item{
+  .portfolio-item > .resume-img{
   width: 30%;
   margin: 50%;
   padding: 50%;
@@ -1953,6 +1967,15 @@ footer.site-footer a:hover {
   left: 10%;
   right: 10%;
 }
+.poly-img{
+  width: 75%;
+  height: auto;
+  transform: scale(1);
+}
+.bubble-img {
+  width: 75%;
+  height: auto;
+  transform: scale(1);
 }
 @media only screen and (min-width: 400px) and (max-width: 767px) {
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -1982,6 +2005,16 @@ footer.site-footer a:hover {
     margin: auto 10%;
     padding: auto 10%;
   }
+  .poly-img{
+    width: 75%;
+    height: auto;
+    zoom: .25;
+  }
+  .bubble-img {
+    width: 75%;
+    height: auto;
+    zoom: .25;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1170px) {
@@ -2001,5 +2034,16 @@ footer.site-footer a:hover {
     right: 10%;
     align-items: center;
     transform: scale(1.7);
+  }
+
+  .poly-img{
+    width: 75%;
+    height: auto;
+    transform: scale(1);
+  }
+  .bubble-img {
+    width: 75%;
+    height: auto;
+    transform: scale(1);
   }
 }
