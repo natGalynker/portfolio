@@ -1855,17 +1855,19 @@ footer.site-footer a:hover {
     font-size: 15px;
     text-align: center;
   }
-  .portfolio-item{
+  .portfolio-item > {
   width: 90%;
   margin: 10%;
   padding: 10%;
   transform: scale(2);
   }
   .poly-img{
-    transform: scale(2);
+    transform: scale(1.4);
+    height: auto;
   }
   .bubble-img {
-    transform: scale(2);
+    transform: scale(1.4);
+    height: auto;
   }
 }
 
@@ -1880,9 +1882,11 @@ footer.site-footer a:hover {
 }
 .poly-img{
   width: 75%;
+  height: auto;
 }
 .bubble-img {
   width: 75%;
+  height: auto;
 }
 .portfolio-item {
   background-position: 50% 50%;
@@ -1996,6 +2000,6 @@ footer.site-footer a:hover {
     left: 10%;
     right: 10%;
     align-items: center;
-    transform: scale(1.5);
+    transform: scale(1.7);
   }
 }
