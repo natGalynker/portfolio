@@ -132,8 +132,23 @@ h4 {
 
 .linked-icon {
   align-items: center !important;
-  
+
 }
+.fa-github {
+  color: purple;
+  align-self:center;
+}
+
+.fa-linkedin {
+  color: purple;
+  align-items: center;
+}
+.links {
+  font-size: 20px;
+  color: navy;
+  display: inline-block;
+}
+
 .st-member-info::after {
   content:"";
   display:table;
@@ -1912,6 +1927,15 @@ footer.site-footer a:hover {
   background-position: 50% 50%;
   background-size: contain;
 }
+.resume-img{
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+  padding: 10%;
+  left: 10%;
+  right: 10%;
+  transform: scale(1.5);
+}
 
 @media (min-width: 768px) {
   .navbar-nav>li>a {
@@ -1929,7 +1953,15 @@ footer.site-footer a:hover {
   height: 10%;
   padding-left: 10% !important;
   }
-
+  .resume-img{
+    width: 70%;
+    height: 70%;
+    margin: 10%;
+    padding: 10%;
+    left: 10%;
+    right: 10%;
+    transform: scale(1.5);
+  }
   .text-area{
   font-size: 17px;
   }
