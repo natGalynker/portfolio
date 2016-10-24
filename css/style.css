@@ -234,8 +234,11 @@ h3 {
 .resume-img {
   height: 50%;
   width: 50%;
-  float: right;
+  top: 50%;
+  right: 70%;
   position: relative;
+  padding: 5px !important;
+
   /*align-content: center;*/
 }
 .resume button {
@@ -1958,7 +1961,7 @@ footer.site-footer a:hover {
     height: 50%;
     margin: 10%;
     padding: 10%;
-    right: 50%;
+    right: 70%;
     top: 50%;
     transform: scale(1.5);
   }
