@@ -91,6 +91,11 @@ a:hover {
   transform: scale(1.2);
   height: 50%;
 }
+.play-img {
+  transform: scale(1.4);
+  height: 50%;
+  margin: 5%;
+}
 
 .bubble-img {
   transform: scale(1.15);
@@ -132,8 +137,23 @@ h4 {
 
 .linked-icon {
   align-items: center !important;
-  
+
 }
+.fa-github {
+  color: purple;
+  align-self:center;
+}
+
+.fa-linkedin {
+  color: purple;
+  align-items: center;
+}
+.links {
+  font-size: 20px;
+  color: navy;
+  display: inline-block;
+}
+
 .st-member-info::after {
   content:"";
   display:table;
@@ -202,7 +222,6 @@ h3 {
 .bubble-img {
   height: 229px;
   width: 100%;
-  margin: %;
 }
 
 .poly-img {
@@ -219,8 +238,11 @@ h3 {
 .resume-img {
   height: 50%;
   width: 50%;
-  float: right;
+  top: 50%;
+  right: 70%;
   position: relative;
+  padding: 5px !important;
+
   /*align-content: center;*/
 }
 .resume button {
@@ -1908,9 +1930,24 @@ footer.site-footer a:hover {
   width: 75%;
   height: auto;
 }
+
+
+.play-img {
+  width: 75%;
+  height: auto;
+}
 .portfolio-item {
   background-position: 50% 50%;
   background-size: contain;
+}
+.resume-img{
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+  padding: 10%;
+  left: 10%;
+  right: 10%;
+  transform: scale(1.5);
 }
 
 @media (min-width: 768px) {
@@ -1929,7 +1966,15 @@ footer.site-footer a:hover {
   height: 10%;
   padding-left: 10% !important;
   }
-
+  .resume-img{
+    width: 50%;
+    height: 50%;
+    margin: 10%;
+    padding: 10%;
+    right: 70%;
+    top: 50%;
+    transform: scale(1.5);
+  }
   .text-area{
   font-size: 17px;
   }
