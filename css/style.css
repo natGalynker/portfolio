@@ -91,6 +91,11 @@ a:hover {
   transform: scale(1.2);
   height: 50%;
 }
+.play-img {
+  transform: scale(1.4);
+  height: 50%;
+  margin: 5%;
+}
 
 .bubble-img {
   transform: scale(1.15);
@@ -217,7 +222,6 @@ h3 {
 .bubble-img {
   height: 229px;
   width: 100%;
-  margin: %;
 }
 
 .poly-img {
@@ -1923,6 +1927,12 @@ footer.site-footer a:hover {
   height: auto;
 }
 .bubble-img {
+  width: 75%;
+  height: auto;
+}
+
+
+.play-img {
   width: 75%;
   height: auto;
 }
