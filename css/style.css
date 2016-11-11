@@ -1916,6 +1916,9 @@ footer.site-footer a:hover {
     transform: scale(1.4);
     height: auto;
   }
+  .tag-line {
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 767x) and (max-width: 990px) {
@@ -1925,6 +1928,9 @@ footer.site-footer a:hover {
   padding: 50%;
   left: 50%;
   right: 50%;
+  }
+  .tag-line {
+    width: 60%;
   }
 }
 .poly-img{
@@ -1960,6 +1966,9 @@ footer.site-footer a:hover {
     padding-top: 41px;
     padding-bottom: 41px;
   }
+  .tag-line {
+    width: 60%;
+  }
   .st-navbar-mini .navbar-default .navbar-nav>li>a {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1994,6 +2003,9 @@ footer.site-footer a:hover {
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background: #000;
     border: none
+  }
+  .tag-line {
+    width: 50%;
   }
   .home .hero-txt .hero-title {
     font-size: 30px;
@@ -2037,6 +2049,10 @@ footer.site-footer a:hover {
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background: #000;
     border: none
+  }
+  .tag-line {
+    width: 20% !important;
+    font-size: 40px;
   }
   .home .hero-txt .hero-title {
     font-size: 42px;
