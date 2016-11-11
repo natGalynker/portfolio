@@ -107,6 +107,10 @@ a:hover {
   color: #704EE3;
 }
 
+.description-tag {
+  align-items: center;
+}
+
 h1,  h3, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   color: #054044;
@@ -1887,11 +1891,12 @@ footer.site-footer a:hover {
    .resume-img{
      width: 100%;
      height: 100%;
-     margin: 10%;
+     margin: 22%;
+     margin-right: 50% !important;
      padding: 10%;
-     left: 10%;
-     right: 10%;
-     transform: scale(1.65);
+     left: 0;
+     /*right: 10%;*/
+     /*transform: scale(1.65);*/
    }
   .about-natalia {
     font-size: 15px;
@@ -1943,7 +1948,7 @@ footer.site-footer a:hover {
 .resume-img{
   width: 80%;
   height: 80%;
-  margin: 10%;
+  margin: 20%;
   padding: 10%;
   left: 10%;
   right: 10%;
@@ -1997,7 +2002,7 @@ footer.site-footer a:hover {
 .resume-img{
   width: 90%;
   height: 100%;
-  margin: 10%;
+  margin: 20%;
   padding: 10%;
   left: 10%;
   right: 10%;
@@ -2042,13 +2047,26 @@ footer.site-footer a:hover {
     background-size: cover;
     width: 80%;
     height: 100%;
-    margin: 10%;
+    margin: 25% !important;
     padding: 10%;
     left: 10%;
     right: 10%;
     align-items: center;
-    transform: scale(1.9);
+    /*transform: scale(.5);*/
   }
+
+@media only screen and (min-width: 717px) and (max-width: 600px) {
+  .resume-img{
+  clear: both;
+  background-size: cover;
+  width: 50% !important;
+  height: 70%;
+  align-items: center;
+  /*transform: scale(.5);*/
+}
+}
+
+
   .btn .btn-main .resume-btn{
     align-items: center;
     height: 100%;
